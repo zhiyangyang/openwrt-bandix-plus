@@ -19,7 +19,7 @@ RUST_BINARY_FILENAME:=bandix-plus-$(RUST_BANDIX_PLUS_VERSION)-$(RUSTC_TARGET_ARC
 
 # 修正下载地址定义方式
 PKG_SOURCE:=$(RUST_BINARY_FILENAME)
-PKG_SOURCE_URL:=https://github.com/timsaya/bandix-plus/releases/download/v$(RUST_BANDIX_PLUS_VERSION)
+PKG_SOURCE_URL:=https://github.com/zhiyangyang/bandix-plus/releases/download/v$(RUST_BANDIX_PLUS_VERSION)
 
 # 修正二进制文件校验值
 ifeq ($(ARCH),aarch64)
