@@ -23,7 +23,7 @@ PKG_SOURCE_URL:=https://github.com/zhiyangyang/bandix-plus/releases/download/v$(
 
 # 修正二进制文件校验值
 ifeq ($(ARCH),aarch64)
-	PKG_HASH:=eb4ae61a224f36b4e836d53e23b74d9b5d746ed9f0f25839b10e464fe5445f59
+	PKG_HASH:=9f4044469b7e8a0054e64e67087635110e77974790edfd64964f597cc9b7bc0b
 else ifeq ($(ARCH),arm) # update.sh skip this tag, do not delete this comment
 	# Ref https://github.com/openwrt/packages/blob/master/lang/rust/rust-values.mk
 
